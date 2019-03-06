@@ -1,5 +1,11 @@
 # vue-inversifyjs-sample
 
+To test if we can use dependency injection in Vue class component, I made this project.
+
+The project is created by Vue CLI 3, and install `reflect-metadata` and `inversify`.
+
+Set ` "emitDecoratorMetadata": true` in tsconfig.json.
+
 ## Project setup
 ```
 yarn install
@@ -8,26 +14,6 @@ yarn install
 ### Compiles and hot-reloads for development
 ```
 yarn run serve
-```
-
-### Compiles and minifies for production
-```
-yarn run build
-```
-
-### Run your tests
-```
-yarn run test
-```
-
-### Lints and fixes files
-```
-yarn run lint
-```
-
-### Run your unit tests
-```
-yarn run test:unit
 ```
 
 ### Customize configuration
